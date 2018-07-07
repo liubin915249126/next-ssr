@@ -1,11 +1,20 @@
-import {Button} from 'antd';
-// import 'antd/dist/antd.less';  // or 'antd/dist/antd.less'
+import {Button,Select} from 'antd';
+import Head from 'next/head'
+import "../src/style/index.less"
 
-import stylesheet from "../src/style/index.less"
 
+console.log(palette);
 
 export default () => <div>
+    <Head>
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
+      <meta charSet='utf-8' />
+      <link rel='stylesheet' href='/_next/static/style.css' />
+    </Head>
     Welcome to next.js!
     <Button type="primary">444</Button>
-    <style jsx global>{ stylesheet }</style>
+    <style jsx global>{`
+      body {
+      }
+    `}</style>
 </div>

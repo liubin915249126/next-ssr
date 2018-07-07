@@ -1,19 +1,9 @@
-module.exports = {
-    webpack: (config, { dev }) => {
-      config.module.rules.push(
-        {
-          test: /\.(less)/,
-          loader: 'emit-file-loader',
-          options: {
-            name: 'dist/[path][name].[ext]'
-          }
-        },
-        {
-          test: /\.less$/,
-          use: ['babel-loader', 'raw-loader', 'less-loader']
-        }
-      );
-      return config;
-    },
-  };
-  
+
+/* eslint-disable */
+const withLess = require('@zeit/next-less')
+
+module.exports = withLess({
+  lessLoaderOptions: {
+    javascriptEnabled: true,
+  },
+})

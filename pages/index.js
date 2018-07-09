@@ -3,8 +3,6 @@ import Head from 'next/head'
 import "../src/style/index.less"
 
 
-console.log(palette);
-
 export default () => <div>
     <Head>
       <meta name='viewport' content='width=device-width, initial-scale=1' />

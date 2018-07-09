@@ -1672,32 +1672,31 @@ var _jsxFileName = "/Users/liubin/Desktop/github/next-ssr/pages/index.js";
 
 
 
-console.log(palette);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 6
     },
     className: "jsx-3261881544"
   }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_head___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 7
     }
   }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("meta", {
     name: "viewport",
     content: "width=device-width, initial-scale=1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 8
     },
     className: "jsx-3261881544"
   }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("meta", {
     charSet: "utf-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 9
     },
     className: "jsx-3261881544"
   }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement("link", {
@@ -1705,18 +1704,18 @@ console.log(palette);
     href: "/_next/static/style.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 10
     },
     className: "jsx-3261881544"
   })), "Welcome to next.js!", __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_antd_lib_button___default.a, {
     type: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 13
     }
   }, "444"), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_styled_jsx_style___default.a, {
     styleId: "3261881544",
-    css: "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWV1QiIsImZpbGUiOiJwYWdlcy9pbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbGl1YmluL0Rlc2t0b3AvZ2l0aHViL25leHQtc3NyIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtCdXR0b24sU2VsZWN0fSBmcm9tICdhbnRkJztcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBcIi4uL3NyYy9zdHlsZS9pbmRleC5sZXNzXCJcblxuXG5jb25zb2xlLmxvZyhwYWxldHRlKTtcblxuZXhwb3J0IGRlZmF1bHQgKCkgPT4gPGRpdj5cbiAgICA8SGVhZD5cbiAgICAgIDxtZXRhIG5hbWU9J3ZpZXdwb3J0JyBjb250ZW50PSd3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MScgLz5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9J3V0Zi04JyAvPlxuICAgICAgPGxpbmsgcmVsPSdzdHlsZXNoZWV0JyBocmVmPScvX25leHQvc3RhdGljL3N0eWxlLmNzcycgLz5cbiAgICA8L0hlYWQ+XG4gICAgV2VsY29tZSB0byBuZXh0LmpzIVxuICAgIDxCdXR0b24gdHlwZT1cInByaW1hcnlcIj40NDQ8L0J1dHRvbj5cbiAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgYm9keSB7XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuPC9kaXY+Il19 */\n/*@ sourceURL=pages/index.js */"
+    css: "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWF1QiIsImZpbGUiOiJwYWdlcy9pbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvVXNlcnMvbGl1YmluL0Rlc2t0b3AvZ2l0aHViL25leHQtc3NyIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtCdXR0b24sU2VsZWN0fSBmcm9tICdhbnRkJztcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcbmltcG9ydCBcIi4uL3NyYy9zdHlsZS9pbmRleC5sZXNzXCJcblxuXG5leHBvcnQgZGVmYXVsdCAoKSA9PiA8ZGl2PlxuICAgIDxIZWFkPlxuICAgICAgPG1ldGEgbmFtZT0ndmlld3BvcnQnIGNvbnRlbnQ9J3dpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xJyAvPlxuICAgICAgPG1ldGEgY2hhclNldD0ndXRmLTgnIC8+XG4gICAgICA8bGluayByZWw9J3N0eWxlc2hlZXQnIGhyZWY9Jy9fbmV4dC9zdGF0aWMvc3R5bGUuY3NzJyAvPlxuICAgIDwvSGVhZD5cbiAgICBXZWxjb21lIHRvIG5leHQuanMhXG4gICAgPEJ1dHRvbiB0eXBlPVwicHJpbWFyeVwiPjQ0NDwvQnV0dG9uPlxuICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICBib2R5IHtcbiAgICAgIH1cbiAgICBgfTwvc3R5bGU+XG48L2Rpdj4iXX0= */\n/*@ sourceURL=pages/index.js */"
   }));
 });
     (function (Component, route) {

@@ -1,1 +1,16 @@
-export default () => <div>Welcome to next.js!2522</div>
+import React from 'react'
+
+export default class extends React.Component {
+  static async getInitialProps(data) {
+    const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
+    return { userAgent }
+  }
+
+  render() {
+    return (
+      <div>
+        Hello World {this.props.userAgent}
+      </div>
+    )
+  }
+}

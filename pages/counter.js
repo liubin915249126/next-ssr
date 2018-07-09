@@ -3,15 +3,17 @@ import React, { Component } from 'react';
 
 import withRematch from '../utils/withRematch';
 import initStore from '../src/models/store';
+import { dispatch } from '@rematch/core'
 
 class Counter extends React.Component {
   render() {
+      
       return(
         <div>
             <h3>The count is {this.props.counter}</h3>
             <p>
             <button onClick={this.props.increment}>increment</button>
-            <button onClick={() => dispatch.counter.increment(1)}>
+            <button onClick={() => {debugger;dispatch.counter.increment(1)}}>
                 increment (using dispatch function)
             </button>
             <button onClick={this.props.incrementBy(5)}>increment by 5</button>

@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default class extends React.Component {
-  static async getInitialProps(data) {
+  static async getInitialProps({req}) {
     const userAgent = req ? req.headers['user-agent'] : navigator.userAgent
     return { userAgent }
   }

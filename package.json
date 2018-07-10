@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "node server1.js",
     "build": "next build",
     "start": "next start"
   },
@@ -26,11 +26,17 @@
     "antd": "^3.6.5",
     "babel-plugin-import": "^1.8.0",
     "babel-plugin-module-resolver": "^3.1.1",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
     "less": "^2.7.2",
     "next": "^6.1.1",
+    "next-routes": "^1.4.2",
     "react": "^16.4.1",
+    "react-dev-utils": "^5.0.1",
     "react-dom": "^16.4.1",
-    "react-redux": "^5.0.7"
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.0.0-beta.48",

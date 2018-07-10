@@ -7,5 +7,7 @@ import stylesheet from "../src/style/index.less"
 export default () => <div>
     Welcome to next.js!
     <Button type="primary">444</Button>
+
+    
     <style jsx global>{ stylesheet }</style>
 </div>

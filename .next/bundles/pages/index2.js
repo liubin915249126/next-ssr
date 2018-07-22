@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/index2', function() {
           var comp =
-      webpackJsonp([4],{
+      webpackJsonp([5],{
 
 /***/ "./node_modules/webpack/buildin/harmony-module.js":
 /***/ (function(module, exports) {
@@ -77,14 +77,25 @@ function (_React$Component) {
   }
 
   _createClass(_default, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      console.log("did");
+    }
+  }, {
+    key: "componentWillReceiveProps",
+    value: function componentWillReceiveProps(nextProps) {
+      console.log("receive" + nextProps);
+    }
+  }, {
     key: "render",
     value: function render() {
+      console.log("render", new Date().getTime());
       return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 19
         }
-      }, "Hello World ", this.props.userAgent);
+      }, "Hello World ", this.props.userAgent, "this is from ", JSON.stringify(this.props.from));
     }
   }], [{
     key: "getInitialProps",
@@ -92,18 +103,21 @@ function (_React$Component) {
       var _getInitialProps = _asyncToGenerator(
       /*#__PURE__*/
       __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function _callee(_ref) {
-        var req, userAgent;
+        var req, userAgent, from;
         return __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
                 req = _ref.req;
                 userAgent = req ? req.headers['user-agent'] : navigator.userAgent;
+                from = req ? "has req " : 222;
+                console.log(111);
                 return _context.abrupt("return", {
-                  userAgent: userAgent
+                  userAgent: userAgent,
+                  from: from
                 });
 
-              case 3:
+              case 5:
               case "end":
                 return _context.stop();
             }
@@ -143,7 +157,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index2.js");
@@ -151,7 +165,7 @@ module.exports = __webpack_require__("./pages/index2.js");
 
 /***/ })
 
-},[3])
+},[4])
           return { page: comp.default }
         })
       ;
